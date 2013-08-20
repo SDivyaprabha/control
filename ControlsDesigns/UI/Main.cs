@@ -21,7 +21,7 @@ namespace ControlsDesigns
         {
             dwWin2.Hide();
             dwWin1.Hide();
-            dwWin1.Text = "New Entry12";
+            dwWin1.Text = "New Entry123";
             NewEntry frm = new NewEntry() { TopLevel = false };
             radPanel1.Controls.Clear();
             frm.FormBorderStyle = FormBorderStyle.None;

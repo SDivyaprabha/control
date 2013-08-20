@@ -28,7 +28,7 @@ namespace ControlsDesigns.UI
         {
             if (String.Compare(txtName.Text.Trim(), "", false) == 0)
             {
-                MessageBox.Show("Enter User ", "Form1", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("Enter User name", "Form1", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 txtName.Focus();
                 return;
             }
